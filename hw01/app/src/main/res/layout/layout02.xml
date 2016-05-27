@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="문제 2. 푸우가 연못에 빠지면?"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="정답일 경우 다음 문제로 넘어갑니다"
+        android:id="@+id/next_button02"
+        android:onClick="onClick02"
+
+        android:layout_marginBottom="93dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText02"
+
+        android:layout_above="@+id/next_button02"
+        android:layout_marginBottom="57dp"
+        android:layout_alignLeft="@+id/next_button02"
+        android:layout_alignStart="@+id/next_button02"
+        android:layout_alignRight="@+id/next_button02"
+        android:layout_alignEnd="@+id/next_button02" />
+
+</RelativeLayout>

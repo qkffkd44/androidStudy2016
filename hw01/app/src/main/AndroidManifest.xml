@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.inyoung.exam01">
+    package="com.example.inyoung.hw01">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
 
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -18,7 +17,18 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".secondActivity"/>
+        <activity android:name=".explainActivity"/>
+
+        <activity android:name=".questionActivity01"/>
+        <activity android:name=".questionActivity02"/>
+        <activity android:name=".questionActivity03"/>
+
+        <activity android:name=".finishActivity"/>
+
+
+
+
+
 
     </application>
 
