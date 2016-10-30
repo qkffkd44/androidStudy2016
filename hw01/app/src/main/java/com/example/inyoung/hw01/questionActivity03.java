@@ -29,6 +29,7 @@ public class questionActivity03 extends AppCompatActivity {
                 String answer = "천도복숭아";
 
                 if(answer.equals(msg)) {
+                    //여기서 메인으로 가면서 엑티비티를 날릴때 intent를 새롭게 줌...
                     Intent intent = new Intent();
                     intent.setClass(this, finishActivity.class);
                     startActivity(intent);

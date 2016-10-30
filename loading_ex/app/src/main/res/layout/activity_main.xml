@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.inyoung.loading_ex.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:background="@drawable/background" />
+    <!-- RelativeLayout은 visibility값을 초기 값을 invisible로 지정해준다. (안보이게)-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_layout"
+        android:visibility="invisible"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Image Loading View"
+            android:id="@+id/textView"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>
+
